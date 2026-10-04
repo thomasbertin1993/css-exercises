@@ -1,1 +1,32 @@
-/* Add CSS Styling */
+/* Add CSS Styling 
+
+* **All odd numbered elements**: a light red/pink background, and a list of fonts containing `Verdana` and `DejaVu Sans` with `sans-serif` as a fallback
+* **The second element**: blue text and a font size of 36px
+* **The third element**: in addition to the styles for all odd numbered elements, add a font size of 24px
+* **The fourth element**: a light green background, a font size of 24px, and bold
+
+- Do the odd numbered `p` elements share a class?
+- Do the even numbered `div` elements have unique IDs?
+- Does the Number 3 element have multiple classes?
+
+*/
+
+.odd-number {
+    background-color: rgb(255, 0, 217);
+    font-family: Verdana, DejaVu Sans, sans-serif;
+}
+
+#id-one {
+    color: rgba(0, 0, 255, 0.848);
+    font-size: 36px;
+}
+
+.font-size {
+    font-size: 24px;
+}
+
+#id-two {
+    background-color: rgb(161, 209, 161);
+    font-size: 24px;
+    font-weight: bold;
+}
